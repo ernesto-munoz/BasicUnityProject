@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEditor.SceneManagement;
 
-
+#pragma warning disable 0168  // variable declared but not used.
 
 public class CreateNewSceneWizard : ScriptableWizard {
 
