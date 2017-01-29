@@ -33,7 +33,7 @@ public class CreateNewSceneWizard : ScriptableWizard {
 
 		// Structure
 		GameObject _management = new GameObject ("Management");
-		GameObject _GUI = new GameObject ("GUI");
+		GameObject _GUI = new GameObject ("UI");
 		GameObject _cameras = new GameObject ("Cameras");
 		mainCamera.transform.parent = _cameras.transform;
 		GameObject _lights = new GameObject ("Lights");
